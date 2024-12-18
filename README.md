@@ -61,7 +61,7 @@ We evaluated the model's outputs based on adherence to this expected format. Spe
 
 ## Experiment
 
-To determine a baseline, we prompted flan with all of the entries of the “test” split of MMLU in the aforementioned prompt structure, resulting in a 43\% accuracy with 0 wrong output formats. We defined various personas, emotions, as well as a range of emotional intensity as shown below:
+To determine a baseline, we prompted flan with all of the entries of the “test” split of MMLU in the aforementioned prompt structure, resulting in a 43% accuracy with 0 wrong output formats. We defined various personas, emotions, as well as a range of emotional intensity as shown below:
 
 ```python
 personas = ["a high school student", "a middle school physical education teacher", "a university computer science professor", "a middle-aged saxophone player"]
